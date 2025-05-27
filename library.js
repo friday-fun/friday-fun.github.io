@@ -1780,8 +1780,9 @@ class UIManager {
 
         "Imagine you are located in a binary star system far away. The  \n" +
         "planets are very different from everything you know. Hover the images \n" +
-        "to get a feeling for what life is like on the surface on these planets. \n\n" +
-
+        "to get a feeling for what life is like on the surface on these planets.\n" +
+        "(Note: The progress bar shows when the hover effect is ready) \n\n" +
+ 
         "The optimal number of players are between 5 and 15 on each team. Push \n" +
         "the \"Start new game\" button to start a private game and send the link to all\n" +
         "the players. Start with a group call including all players (from both teams). \n" +
