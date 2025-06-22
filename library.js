@@ -1863,7 +1863,7 @@ class UIManager {
             mouseY > this.buttonY - this.buttonH / 2 && mouseY < this.buttonY + this.buttonH / 2) {
 
             const randomNumber = Math.floor(Math.random() * 1000000) + 1;
-            this.roomLink = `https://friday-fun.github.io/SpaceStrategoV3/?room=${randomNumber}`;
+            this.roomLink = `https://friday-fun.github.io/SpaceStrategoV4/?room=${randomNumber}`;
 
             navigator.clipboard.writeText(this.roomLink).then(() => {
                 this.copied = true;
